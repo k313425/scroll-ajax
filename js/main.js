@@ -127,7 +127,7 @@ jQuery.fn.albumCallBack = function (data, cb) {
 	if (parseInt(data.code) === 200) {
 		if (data.data.length < 1) {
 			isHaveNot = true;
-			cb && cb.end(); // 没有数据了
+			cb && cb.success(false); // 没有数据了
 			isLoading = false;
 		}else {
 			jQuery.each(data.data, function (i, item) {

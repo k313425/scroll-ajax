@@ -176,7 +176,7 @@
       warpId: null, // 可配置上拉加载的布局添加到指定id的div;默认不配置,默认添加到mescrollId
       warpClass: 'mescroll-upwarp', // 上拉加载的布局容器样式
       htmlLoading: '<p class="upwarp-progress mescroll-rotate"></p><p class="upwarp-tip">加载中..</p>', // 上拉加载中的布局
-      htmlNodata: '<p class="upwarp-nodata">-- END --</p>', // 无数据的布局
+      htmlNodata: '<p class="upwarp-nodata">下面没有了。</p>', // 无数据的布局
       inited: function (mescroll, upwarp) {
         // 初始化完毕的回调,可缓存dom 比如 mescroll.upProgressDom = upwarp.getElementsByClassName("upwarp-progress")[0];
       },
@@ -279,7 +279,7 @@
               var angle = Math.asin(y / z) / Math.PI * 180; // 两点之间的角度,区间 [0,90]
               if (angle < me.optDown.minAngle) return; // 如果小于配置的角度,则不往下执行下拉刷新
             }
-						
+
             // 如果手指的位置超过配置的距离,则提前结束下拉,避免Webview嵌套导致touchend无法触发
             if (me.maxTouchmoveY > 0 && curPoint.y >= me.maxTouchmoveY) {
               me.inTouchend = true; // 标记执行touchend
@@ -720,7 +720,7 @@
   MeScroll.prototype.endByPage = function (dataSize, totalPage, systime) {
     var hasNext;
     if (this.optUp.use && totalPage != null) hasNext = this.optUp.page.num < totalPage; // 是否还有下一页
-    this.endSuccess(dataSize, hasNext, systime);
+    this.success(dataSize, hasNext, systime);
   }
 
   /* 联网回调成功,结束下拉刷新和上拉加载
@@ -734,7 +734,7 @@
       var loadSize = (this.optUp.page.num - 1) * this.optUp.page.size + dataSize; // 已加载的数据总数
       hasNext = loadSize < totalSize; // 是否还有下一页
     }
-    this.endSuccess(dataSize, hasNext, systime);
+    this.success(dataSize, hasNext, systime);
   }
 
   /* 联网回调成功,结束下拉刷新和上拉加载
@@ -742,7 +742,7 @@
      * hasNext: 是否还有下一页,布尔类型;用来解决这个小问题:比如列表共有20条数据,每页加载10条,共2页.如果只根据dataSize判断,则需翻到第三页才会知道无更多数据,如果传了hasNext,则翻到第二页即可显示无更多数据.
      * systime: 服务器时间(可空);用来解决这个小问题:当准备翻下一页时,数据库新增了几条记录,此时翻下一页,前面的几条数据会和上一页的重复;这里传入了systime,那么upCallback的page.time就会有值,把page.time传给服务器,让后台过滤新加入的那几条记录
      */
-  MeScroll.prototype.endSuccess = function (dataSize, hasNext, systime) {
+  MeScroll.prototype.success = function (dataSize, hasNext, systime) {
     var me = this;
     // 结束下拉刷新
     if (me.isDownScrolling) me.endDownScroll();
@@ -796,7 +796,7 @@
   }
 
   /* 回调失败,结束下拉刷新和上拉加载 */
-  MeScroll.prototype.endErr = function () {
+  MeScroll.prototype.error = function () {
     // 结束下拉,回调失败重置回原来的页码和时间
     if (this.isDownScrolling) {
       var page = this.optUp.page;
@@ -811,6 +811,7 @@
       this.optUp.page.num--;
       this.endUpScroll(false);
     }
+	this.showNoMore();
   }
 
   /* 检查如果加载的数据过少,无法触发上拉加载时,则自动加载下一页,直到满屏或者没有更多数据
