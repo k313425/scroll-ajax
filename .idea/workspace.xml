@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photo-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ren-send.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.js-mdropload-down</find>
+      <find>str.t3d</find>
+      <find>upObj</find>
+      <find>status.lock</find>
+      <find>reset</find>
+      <find>pageUrl</find>
+      <find>pageW</find>
+      <find>入住</find>
+      <find>$(</find>
+      <find>$</find>
+      <find>$$</find>
+      <find>col-sm-6</find>
+      <find>ad</find>
+      <find>down</find>
+      <find>end</find>
+      <find>cb.</find>
+      <find>var isHaveNot = false; // 是否已经加载完毕</find>
+      <find>isHaveNot</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>入驻</replace>
+      <replace>jQuery</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\wwwroot\0510-sp_06\js\lib</dir>
+      <dir>E:\wwwroot\0510-sp_06</dir>
+      <dir>E:\wwwroot\实景\0510-sp_06</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/less/all.less" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/css/swiper.css" />
+        <option value="$PROJECT_DIR$/js/lib/Mdropload.min.js" />
+        <option value="E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/dist/Mdropload.js" />
+        <option value="$PROJECT_DIR$/doc/md.css" />
+        <option value="$MESSAGE$/Users/KK/Downloads/isscoll/index.html" />
+        <option value="$PROJECT_DIR$/list.html" />
+        <option value="$PROJECT_DIR$/album-detail.html" />
+        <option value="$PROJECT_DIR$/ren-send.html" />
+        <option value="E:/经验/2019/js/滚动加载.js" />
+        <option value="E:/经验/2019/js/滚动加载/滚动加载.js" />
+        <option value="$PROJECT_DIR$/join-send.html" />
+        <option value="$PROJECT_DIR$/ren.html" />
+        <option value="$PROJECT_DIR$/join.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/lib/Mdropload.js" />
+        <option value="$PROJECT_DIR$/callback.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/photo.html" />
+        <option value="$PROJECT_DIR$/photo-detail.html" />
+        <option value="$PROJECT_DIR$/shop.html" />
+        <option value="$PROJECT_DIR$/shop-detail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.其他文件类型" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wwwroot\0510-sp_06" />
+      <recent name="E:\wwwroot\0510-sp_06\js\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wwwroot\0510-sp_06\img\common" />
+      <recent name="E:\wwwroot\0510-sp_06\img\tmp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.photo.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="photo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/photo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="shop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/shop.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.photo.html" />
+        <item itemvalue="JavaScript Debug.shop.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="" />
+      <created>1557454177960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557454177960</updated>
+      <workItem from="1557454179138" duration="22548000" />
+      <workItem from="1557707729936" duration="20567000" />
+      <workItem from="1557736284382" duration="3015000" />
+      <workItem from="1557794406518" duration="956000" />
+      <workItem from="1557796012798" duration="1647000" />
+      <workItem from="1557969236199" duration="317000" />
+      <workItem from="1557987370207" duration="2790000" />
+      <workItem from="1558059990482" duration="631000" />
+      <workItem from="1558061164538" duration="143000" />
+      <workItem from="1558400366389" duration="3511000" />
+      <workItem from="1558590861883" duration="2131000" />
+      <workItem from="1558661921979" duration="849000" />
+      <workItem from="1559004098430" duration="898000" />
+    </task>
+    <task id="LOCAL-00001" summary="实景修改 上拉刷新">
+      <created>1559004302923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559004302923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60003000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="消息" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="找到" order="7" weight="0.56085527" />
+      <window_info anchor="bottom" id="运行" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19966997" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.22203948" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实景修改 上拉刷新" />
+    <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img/tmp/photo01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon08.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon09.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/swiper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.min.js" />
+    <entry file="file://$PROJECT_DIR$/../五一活动/0428-sp_03/index.html" />
+    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_downEmpty.html" />
+    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_emptyMessage.html" />
+    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index.html" />
+    <entry file="file://$MESSAGE$/Program Files/JetBrains/WebStorm 2019.1/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4855" column="4" selection-start-line="4855" selection-start-column="4" selection-end-line="4855" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/dist/Mdropload.js" />
+    <entry file="file://$MESSAGE$/Users/KK/Downloads/isscoll/index.html" />
+    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_Ajax.js" />
+    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_callBack.js" />
+    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_content.js" />
+    <entry file="file://$PROJECT_DIR$/../五一活动/0428-sp_03/js/main.js" />
+    <entry file="file://E:/经验/2019/js/isscoll/index.html" />
+    <entry file="file://$PROJECT_DIR$/../五一活动/0416-pc_01/src/js/index.js" />
+    <entry file="file://E:/经验/2019/js/tag.php" />
+    <entry file="file://E:/经验/2019/js/滚动加载.js" />
+    <entry file="file://E:/经验/2019/js/滚动加载/滚动加载tag.php" />
+    <entry file="file://E:/经验/2019/js/滚动加载/滚动加载.js" />
+    <entry file="file://$PROJECT_DIR$/js/plugins.js" />
+    <entry file="file://$PROJECT_DIR$/js/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../0510-sp_06 - 副本/js/lib/Mdropload.js" />
+    <entry file="file://$PROJECT_DIR$/../0510-sp_06 - 副本/callback.php" />
+    <entry file="file://$PROJECT_DIR$/join-send.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/public/icon13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="371" column="21" selection-start-line="371" selection-start-column="21" selection-end-line="371" selection-end-column="21" />
+          <folding>
+            <element signature="e#274#2131#0" />
+            <element signature="e#278#302#0" />
+            <element signature="e#847#942#0" />
+            <element signature="e#993#1123#0" />
+            <element signature="e#1072#1119#0" />
+            <element signature="e#1171#1287#0" />
+            <element signature="e#1204#1243#0" />
+            <element signature="e#1249#1283#0" />
+            <element signature="e#1321#1861#0" />
+            <element signature="e#1348#1787#0" />
+            <element signature="e#1437#1558#0" />
+            <element signature="e#1587#1680#0" />
+            <element signature="e#1686#1743#0" />
+            <element signature="e#1800#1831#0" />
+            <element signature="e#1944#2128#0" />
+            <element signature="e#2018#2057#0" />
+            <element signature="e#2063#2124#0" />
+            <element signature="e#2152#3235#0" />
+            <element signature="e#2178#3232#0" />
+            <element signature="e#3274#4272#0" />
+            <element signature="e#3306#4255#0" />
+            <element signature="e#3339#3723#0" />
+            <element signature="e#3447#3718#0" />
+            <element signature="e#3505#3572#0" />
+            <element signature="e#3614#3712#0" />
+            <element signature="e#3758#4015#0" />
+            <element signature="e#3964#4010#0" />
+            <element signature="e#4056#4137#0" />
+            <element signature="e#4172#4251#0" />
+            <element signature="e#4654#4777#0" />
+            <element signature="e#4815#5866#0" />
+            <element signature="e#4870#5166#0" />
+            <element signature="e#4944#4989#0" />
+            <element signature="e#5017#5077#0" />
+            <element signature="e#5227#5577#0" />
+            <element signature="e#5313#5370#0" />
+            <element signature="e#5404#5476#0" />
+            <element signature="e#5640#5863#0" />
+            <element signature="e#5712#5776#0" />
+            <element signature="e#5782#5835#0" />
+            <element signature="e#5880#6148#0" />
+            <element signature="e#6182#6802#0" />
+            <element signature="e#6326#6342#0" />
+            <element signature="e#6345#6367#0" />
+            <element signature="e#6490#6516#0" />
+            <element signature="e#6863#7555#0" />
+            <element signature="e#7037#7545#0" />
+            <element signature="e#7129#7501#0" />
+            <element signature="e#7250#7276#0" />
+            <element signature="e#7507#7541#0" />
+            <element signature="e#7586#8549#0" />
+            <element signature="e#7612#8491#0" />
+            <element signature="e#7724#7779#0" />
+            <element signature="e#7845#7900#0" />
+            <element signature="e#7906#7983#0" />
+            <element signature="e#8220#8355#0" />
+            <element signature="e#8361#8390#0" />
+            <element signature="e#8394#8414#0" />
+            <element signature="e#8581#9576#0" />
+            <element signature="e#8667#9573#0" />
+            <element signature="e#8818#9481#0" />
+            <element signature="e#8944#9376#0" />
+            <element signature="e#8951#8995#0" />
+            <element signature="e#9411#9476#0" />
+            <element signature="e#9534#9569#0" />
+            <element signature="e#9611#9674#0" />
+            <element signature="e#9950#9979#0" />
+            <element signature="e#9985#10014#0" />
+            <element signature="e#10223#10339#0" />
+            <element signature="e#10256#10295#0" />
+            <element signature="e#10301#10335#0" />
+            <element signature="e#10383#10466#0" />
+            <element signature="e#10402#10461#0" />
+            <element signature="e#10577#10589#0" />
+            <element signature="e#10632#10666#0" />
+            <element signature="e#10704#10736#0" />
+            <element signature="e#10762#10795#0" />
+            <element signature="e#10823#10859#0" />
+            <element signature="e#10919#10954#0" />
+            <element signature="e#11360#12070#0" />
+            <element signature="e#11857#11993#0" />
+            <element signature="e#12006#12035#0" />
+            <element signature="e#12040#12047#0" />
+            <element signature="e#12333#12372#0" />
+            <element signature="e#12438#12473#0" />
+            <element signature="e#12526#13590#0" />
+            <element signature="e#12647#12844#0" />
+            <element signature="e#12943#13129#0" />
+            <element signature="e#13303#13363#0" />
+            <element signature="e#13369#13430#0" />
+            <element signature="e#13452#13516#0" />
+            <element signature="e#13522#13587#0" />
+            <element signature="e#13628#13982#0" />
+            <element signature="e#13725#13768#0" />
+            <element signature="e#13789#13837#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/md.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding>
+            <element signature="e#18#213#0" />
+            <element signature="e#438#490#0" />
+            <element signature="e#508#553#0" />
+            <element signature="e#566#611#0" />
+            <element signature="e#612#662#0" />
+            <element signature="e#666#770#0" />
+            <element signature="e#771#827#0" />
+            <element signature="e#867#910#0" />
+            <element signature="e#911#952#0" />
+            <element signature="e#962#1002#0" />
+            <element signature="e#1003#1055#0" />
+            <element signature="e#1065#1087#0" />
+            <element signature="e#1095#1130#0" />
+            <element signature="e#1133#1160#0" />
+            <element signature="e#1170#1197#0" />
+            <element signature="e#1200#1228#0" />
+            <element signature="e#1233#1276#0" />
+            <element signature="e#1277#1451#0" />
+            <element signature="e#1452#1499#0" />
+            <element signature="e#1508#1538#0" />
+            <element signature="e#1545#1569#0" />
+            <element signature="e#1570#1602#0" />
+            <element signature="e#1637#1688#0" />
+            <element signature="e#1705#1787#0" />
+            <element signature="e#1795#1855#0" />
+            <element signature="e#1864#1913#0" />
+            <element signature="e#1952#2022#0" />
+            <element signature="e#2249#2305#0" />
+            <element signature="e#2318#2364#0" />
+            <element signature="e#2365#2508#0" />
+            <element signature="e#2520#2542#0" />
+            <element signature="e#2556#2580#0" />
+            <element signature="e#2595#2620#0" />
+            <element signature="e#2633#2656#0" />
+            <element signature="e#2668#2685#0" />
+            <element signature="e#2698#2716#0" />
+            <element signature="e#2717#2848#0" />
+            <element signature="e#2854#2921#0" />
+            <element signature="e#2933#3029#0" />
+            <element signature="e#3046#3091#0" />
+            <element signature="e#3115#3140#0" />
+            <element signature="e#3163#3187#0" />
+            <element signature="e#3199#3216#0" />
+            <element signature="e#3228#3247#0" />
+            <element signature="e#3259#3278#0" />
+            <element signature="e#3289#3305#0" />
+            <element signature="e#3316#3335#0" />
+            <element signature="e#3346#3365#0" />
+            <element signature="e#3376#3392#0" />
+            <element signature="e#3403#3422#0" />
+            <element signature="e#3433#3452#0" />
+            <element signature="e#3463#3479#0" />
+            <element signature="e#3490#3509#0" />
+            <element signature="e#3520#3538#0" />
+            <element signature="e#3573#3963#0" />
+            <element signature="e#3587#3606#0" />
+            <element signature="e#3619#3640#0" />
+            <element signature="e#3653#3674#0" />
+            <element signature="e#3686#3704#0" />
+            <element signature="e#3716#3737#0" />
+            <element signature="e#3749#3770#0" />
+            <element signature="e#3782#3800#0" />
+            <element signature="e#3812#3833#0" />
+            <element signature="e#3845#3866#0" />
+            <element signature="e#3878#3896#0" />
+            <element signature="e#3908#3929#0" />
+            <element signature="e#3941#3961#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ren-send.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
