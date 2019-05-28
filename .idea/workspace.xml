@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/main.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
     </list>
@@ -20,19 +23,23 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo.html">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="182">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+              <folding>
+                <element signature="e#1044#2302#0" />
+                <element signature="e#2356#3096#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="586" column="30" lean-forward="true" selection-start-line="586" selection-start-column="30" selection-end-line="586" selection-end-column="30" />
+            <state relative-caret-position="55">
+              <caret line="586" column="33" selection-start-line="586" selection-start-column="33" selection-end-line="586" selection-end-column="33" />
               <folding>
                 <element signature="e#18#213#0" />
                 <element signature="e#438#490#0" />
@@ -113,9 +120,16 @@
                 <element signature="e#6422#7704#0" />
                 <element signature="e#7718#9487#0" />
                 <element signature="e#7728#7901#0" />
-                <element signature="e#9499#9682#0" />
-                <element signature="e#9696#9887#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -189,8 +203,9 @@
         <option value="$PROJECT_DIR$/photo-detail.html" />
         <option value="$PROJECT_DIR$/shop.html" />
         <option value="$PROJECT_DIR$/shop-detail.html" />
-        <option value="$PROJECT_DIR$/photo.html" />
+        <option value="E:/经验/js/滚动加载/index.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/photo.html" />
       </list>
     </option>
   </component>
@@ -211,6 +226,11 @@
             <path>
               <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
               <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +315,7 @@
       <workItem from="1558400366389" duration="3511000" />
       <workItem from="1558590861883" duration="2131000" />
       <workItem from="1558661921979" duration="849000" />
-      <workItem from="1559004098430" duration="3272000" />
+      <workItem from="1559004098430" duration="6791000" />
     </task>
     <task id="LOCAL-00001" summary="实景修改 上拉刷新">
       <created>1559004302923</created>
@@ -325,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559006956323</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="实景修改 上拉刷新">
+      <created>1559007478947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559007478947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实景修改 上拉刷新">
+      <created>1559008096891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559008096891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62377000" />
+    <option name="totallyTimeSpent" value="65896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,8 +384,8 @@
       <window_info anchor="bottom" id="运行" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996277" visible="true" weight="0.2310231" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003723" side_tool="true" weight="0.5049505" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996277" visible="true" weight="0.13861386" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003723" side_tool="true" weight="0.2310231" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.22203948" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,9 +400,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/tmp/photo01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/public/icon03.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -579,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/.git/config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -640,17 +664,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo.html">
+    <entry file="file://E:/经验/js/滚动加载/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="e#1044#2302#0" />
+            <element signature="e#2356#3096#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="586" column="30" lean-forward="true" selection-start-line="586" selection-start-column="30" selection-end-line="586" selection-end-column="30" />
+        <state relative-caret-position="55">
+          <caret line="586" column="33" selection-start-line="586" selection-start-column="33" selection-end-line="586" selection-end-column="33" />
           <folding>
             <element signature="e#18#213#0" />
             <element signature="e#438#490#0" />
@@ -731,9 +766,14 @@
             <element signature="e#6422#7704#0" />
             <element signature="e#7718#9487#0" />
             <element signature="e#7728#7901#0" />
-            <element signature="e#9499#9682#0" />
-            <element signature="e#9696#9887#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
