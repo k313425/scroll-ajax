@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="web-container album-container">
+	<div class="header">
+		<a href="javascript:history.back()" class="back"><img src="img/public/back_w.png" alt=""></a>
+		<span class="index"><i>1</i> / 100</span>
+		<a href="javascript:history.back()" class="share"><img src="img/public/share.png" alt=""></a>
+	</div>
+	<!--相册详情-->
+	<div class="album-detail">
+		<div class="pho">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+
+				</div>
+			</div>
+		</div>
+		<div class="txt">
+			<h2 class="ttl">薇薇新娘装修展示图</h2>
+			<p>当我们打开菜单栏，打算截图时，Alt键会迫使菜单栏关闭。按完Alt键，再按Shift键。</p>
+		</div>
+	</div>
+</div>
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/swiper.js"></script>
+<script src="js/main.js"></script>
+<script>
+	var page = 2;
+	var pageUrl = 'http://localhost/callback.php?page=';
+	var isLoading = false;	// 正在加载中
+	var isHaveNot = false; // 是否已经加载完毕
+	var swiper = new Swiper('.swiper-container', {
+		centeredSlides: true,
+		observer: true, //动态监听自己或子元素，自动化初始
+		observeParents: true, //动态监听父元素，自动化初始
+	});
+	swiper.on('slideChangeTransitionEnd', function () {
+		var index = swiper.activeIndex + 1;
+		var slide =  document.querySelectorAll('.swiper-slide').length;
+		jQuery('.header .index i').html(index);
+
+		if (index + 4 === slide) {
+			jQuery('.album-detail .swiper-wrapper').ajaxInfo({
+				url: pageUrl + page,
+				cb: null,
+				sucess: function (data, cb) {
+					jQuery('.album-detail .swiper-wrapper').albumDetailCallBack(data, cb);
+				}
+			});
+		}
+	});
+	jQuery('.album-detail .swiper-wrapper').ajaxInfo({
+		url: pageUrl + page,
+		cb: null,
+		sucess: function (data, cb) {
+			jQuery('.album-detail .swiper-wrapper').albumDetailCallBack(data, cb);
+		}
+	});
+</script>
+</body>
+</html>
