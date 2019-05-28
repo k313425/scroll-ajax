@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 	<meta name="renderer" content="webkit">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/mescroll.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -16,15 +17,13 @@
 	<div class="header">
 		<a href="javascript:history.back()" class="back"><img src="img/public/back.png" alt=""></a>
 		<h1 class="logo">黑光装修实景平台</h1></div>
-	<div class="main">
-		<!--相册列表-->
-		<div class="section">
-			<div class="album-list"></div>
-		</div>
+	<div id="mescroll" class="mescroll">
+		<div class="album-list"></div>
 	</div>
 </div>
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/Mdropload.js"></script>
+<script src="js/lib/mescroll.js"></script>
 <script src="js/main.js"></script>
 <script>
 	var page = 2;
@@ -32,44 +31,26 @@
 	var isLoading = false;	// 正在加载中
 	var isHaveNot = false; // 是否已经加载完毕
 	// 滚动代码
-	var dropload = Mdropload(document.querySelector('.album-list'), {
-		height: 50,
+	var mescroll = new MeScroll("mescroll", { //第一个参数"mescroll"对应上面布局结构div的id
+		//如果您的下拉刷新是重置列表数据,那么down完全可以不用配置,具体用法参考第一个基础案例
+		//解析: down.callback默认调用mescroll.resetUpScroll(),而resetUpScroll会将page.num=1,再触发up.callback
+		up: {
+			callback: upCallback, //上拉加载的回调
+		},
 		down: {
-			fn: function (cb) {
-				if (isLoading) {
-					return false;
-				}
-				if (isHaveNot) {
-					cb.end();
-					return false;
-				}
-				isLoading = true;
-				jQuery('.album-list').ajaxInfo({
-					url: pageUrl + page,
-					cb: cb,
-					sucess: function (data, cb) {
-						jQuery('.album-list').albumCallBack(data, cb);
-					}
-				});
-			},
-			template: {
-				none: '上拉刷新',
-				message: '释放更新',
-				loading: '正在更新，请稍后',
-				success: '刷新成功',
-				end: '虾面没有了',
-				error: '刷新失败'
+			use: false, //不初始化下拉刷新的布局
+		}
+	});
+	function upCallback() {
+		jQuery('.album-list').ajaxInfo({
+			url: pageUrl + page,
+			cb: mescroll,
+			sucess: function (data, cb) {
+				jQuery('.album-list').albumCallBack(data, cb);
 			}
-		}
-	});
-	jQuery('.album-list').ajaxInfo({
-		url: pageUrl + page,
-		cb: null,
-		sucess: function (data, cb) {
-			jQuery('.album-list').albumCallBack(data, cb);
-		}
-	});
-	console.log(dropload.obj.classList[0]);
+		})
+	}
+	console.log(mescroll);
 </script>
 </body>
 </html>

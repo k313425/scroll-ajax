@@ -513,6 +513,9 @@ img {
 .web-container .album-list .item a {
   display: block;
 }
+.web-container .album-list .row {
+  margin: 0 -5px;
+}
 .web-container .album-list .row [class*='col-'] {
   padding: 0 5px;
   position: relative;

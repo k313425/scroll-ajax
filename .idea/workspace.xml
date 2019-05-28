@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mescroll.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lib/mescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo-mescoll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css.map" afterDir="false" />
@@ -22,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="18">
+              <caret line="129" column="24" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="24" />
               <folding>
                 <element signature="e#1044#2302#0" />
                 <element signature="e#2356#3096#0" />
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="586" column="33" selection-start-line="586" selection-start-column="33" selection-end-line="586" selection-end-column="33" />
+            <state relative-caret-position="143">
+              <caret line="585" column="4" selection-start-line="585" selection-start-column="4" selection-end-line="585" selection-end-column="4" />
               <folding>
                 <element signature="e#18#213#0" />
                 <element signature="e#438#490#0" />
@@ -125,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -163,6 +165,7 @@
       <find>cb.</find>
       <find>var isHaveNot = false; // 是否已经加载完毕</find>
       <find>isHaveNot</find>
+      <find>endSuccess</find>
     </findStrings>
     <replaceStrings>
       <replace>入驻</replace>
@@ -199,13 +202,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/lib/Mdropload.js" />
         <option value="$PROJECT_DIR$/callback.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/photo-detail.html" />
         <option value="$PROJECT_DIR$/shop.html" />
         <option value="$PROJECT_DIR$/shop-detail.html" />
         <option value="E:/经验/js/滚动加载/index.html" />
+        <option value="$PROJECT_DIR$/js/lib/mescroll.js" />
+        <option value="$PROJECT_DIR$/photo-mescoll.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
         <option value="$PROJECT_DIR$/photo.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -230,7 +235,18 @@
             <path>
               <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
               <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
@@ -247,20 +263,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wwwroot\0510-sp_06" />
-      <recent name="E:\wwwroot\0510-sp_06\js\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wwwroot\0510-sp_06\css" />
       <recent name="E:\wwwroot\0510-sp_06\img\common" />
       <recent name="E:\wwwroot\0510-sp_06\img\tmp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wwwroot\0510-sp_06\js\lib" />
+      <recent name="E:\wwwroot\0510-sp_06" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,7 +332,7 @@
       <workItem from="1558400366389" duration="3511000" />
       <workItem from="1558590861883" duration="2131000" />
       <workItem from="1558661921979" duration="849000" />
-      <workItem from="1559004098430" duration="6791000" />
+      <workItem from="1559004098430" duration="8173000" />
     </task>
     <task id="LOCAL-00001" summary="实景修改 上拉刷新">
       <created>1559004302923</created>
@@ -359,11 +376,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559008096891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="实景修改 上拉刷新">
+      <created>1559011218636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559011218636</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65896000" />
+    <option name="totallyTimeSpent" value="67278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -400,15 +424,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/public/icon03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/public/icon06.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -671,21 +686,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/mescroll.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="e#1044#2302#0" />
-            <element signature="e#2356#3096#0" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo-mescoll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="586" column="33" selection-start-line="586" selection-start-column="33" selection-end-line="586" selection-end-column="33" />
+        <state relative-caret-position="143">
+          <caret line="585" column="4" selection-start-line="585" selection-start-column="4" selection-end-line="585" selection-end-column="4" />
           <folding>
             <element signature="e#18#213#0" />
             <element signature="e#438#490#0" />
@@ -770,10 +788,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/mescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="722" column="19" selection-start-line="722" selection-start-column="9" selection-end-line="722" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="129" column="24" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="e#1044#2302#0" />
+            <element signature="e#2356#3096#0" />
+          </folding>
         </state>
       </provider>
     </entry>
