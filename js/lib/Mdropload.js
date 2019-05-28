@@ -129,7 +129,6 @@
 				}
 			},
 			reset: function reset(mouseY) {
-				console.log(mouseY);
 				that.obj.css('transform', 'translate3d(0,0,0)');
 				that.upObj.css('opacity', '0');
 				that.status.bottomEvent = false;
@@ -248,7 +247,7 @@
 		if (that.status.loading || that.status.bottomEvent) return;
 		clearTimeout(scrollTimeout);
 		scrollTimeout = setTimeout(function () {
-			if (scroll.getScrollTop() + scroll.getWindowHeight() >= scroll.getScrollHeight() - 50) {
+			if (scroll.getScrollTop() + scroll.getWindowHeight() >= scroll.getScrollHeight() - 100) {
 				// bottom event
 				console.log('执行down');
 				that.status.loading = true;
@@ -266,7 +265,9 @@
 	}
 
 	var touchend = function (e) {
+
 		if (this.status.lock) {
+
 			this.endMouse = utils.mouseXY(e);
 			var mouseY = this.endMouse.y - this.startMouse.y;
 			if (mouseY > 20) {
@@ -307,17 +308,6 @@
 			// 解决与iScroll冲突问题
 			if (scroll.getScrollTop() === 0 && mouseY > 0) {
 				e.preventDefault && e.preventDefault();
-				// 判断是否固定距离,默认为一半屏幕高度
-				if (mouseY > 0 && mouseY < that.opt.windowHeight) {
-					// var offset = (mouseY + that.offsetY) / 2;
-					// var o = (offset / that.opt.height).toFixedownd(2);
-					// o = o > 1 ? 1 : o;
-					// that.obj.css(str.tf, str.t3d + '(0,' + offset + 'px,0)');
-					// that.upObj.css(str.o, o);
-					// 操作下拉提示框
-					// var offsetUpobjHeight = (offset - that.opt.height) / 2;
-					// that.upObj.css(str.tf, str.t3d + '(0,' + (offsetUpobjHeight < 0 ? 0 : offsetUpobjHeight) + 'px,0)');
-				}
 				if (mouseY > that.opt.height) {
 					that.upObj.innerHTML = that.opt.up.template.message;
 				}
