@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lib/Mdropload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/Mdropload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,104 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="131" column="15" lean-forward="true" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
-              <folding>
-                <element signature="e#1044#2302#0" />
-                <element signature="e#2356#3096#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="249" column="97" selection-start-line="249" selection-start-column="97" selection-end-line="249" selection-end-column="97" />
-              <folding>
-                <element signature="e#278#302#0" />
-                <element signature="e#847#942#0" />
-                <element signature="e#993#1123#0" />
-                <element signature="e#1072#1119#0" />
-                <element signature="e#1171#1287#0" />
-                <element signature="e#1204#1243#0" />
-                <element signature="e#1249#1283#0" />
-                <element signature="e#1321#1861#0" />
-                <element signature="e#1348#1787#0" />
-                <element signature="e#1437#1558#0" />
-                <element signature="e#1587#1680#0" />
-                <element signature="e#1686#1743#0" />
-                <element signature="e#1800#1831#0" />
-                <element signature="e#1944#2128#0" />
-                <element signature="e#2018#2057#0" />
-                <element signature="e#2063#2124#0" />
-                <element signature="e#2152#3235#0" />
-                <element signature="e#2178#3232#0" />
-                <element signature="e#3339#3723#0" />
-                <element signature="e#3447#3718#0" />
-                <element signature="e#3505#3572#0" />
-                <element signature="e#3614#3712#0" />
-                <element signature="e#3964#4010#0" />
-                <element signature="e#4056#4137#0" />
-                <element signature="e#4172#4251#0" />
-                <element signature="e#4654#4777#0" />
-                <element signature="e#4815#5866#0" />
-                <element signature="e#4870#5166#0" />
-                <element signature="e#4944#4989#0" />
-                <element signature="e#5017#5077#0" />
-                <element signature="e#5227#5577#0" />
-                <element signature="e#5313#5370#0" />
-                <element signature="e#5404#5476#0" />
-                <element signature="e#5640#5863#0" />
-                <element signature="e#5712#5776#0" />
-                <element signature="e#5782#5835#0" />
-                <element signature="e#5880#6148#0" />
-                <element signature="e#6182#6802#0" />
-                <element signature="e#7586#8556#0" />
-                <element signature="e#7724#7779#0" />
-                <element signature="e#7845#7900#0" />
-                <element signature="e#8361#8390#0" />
-                <element signature="e#9611#9674#0" />
-                <element signature="e#9950#9979#0" />
-                <element signature="e#9985#10014#0" />
-                <element signature="e#10223#10339#0" />
-                <element signature="e#10256#10295#0" />
-                <element signature="e#10301#10335#0" />
-                <element signature="e#10402#10461#0" />
-                <element signature="e#10577#10589#0" />
-                <element signature="e#10632#10666#0" />
-                <element signature="e#10704#10736#0" />
-                <element signature="e#10762#10795#0" />
-                <element signature="e#10823#10859#0" />
-                <element signature="e#11360#12070#0" />
-                <element signature="e#11857#11993#0" />
-                <element signature="e#12006#12035#0" />
-                <element signature="e#12040#12047#0" />
-                <element signature="e#12438#12473#0" />
-                <element signature="e#12526#13590#0" />
-                <element signature="e#12647#12844#0" />
-                <element signature="e#12943#13129#0" />
-                <element signature="e#13303#13363#0" />
-                <element signature="e#13369#13430#0" />
-                <element signature="e#13452#13516#0" />
-                <element signature="e#13522#13587#0" />
-                <element signature="e#13628#13982#0" />
-                <element signature="e#13725#13768#0" />
-                <element signature="e#13789#13837#0" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -151,11 +59,15 @@
       <find>isHaveNot</find>
       <find>endSuccess</find>
       <find>endErr</find>
-      <find>error</find>
       <find>opt</find>
       <find>this.status.lock</find>
       <find>this.status.lock = true</find>
       <find>scrollEvent</find>
+      <find>error</find>
+      <find>.web-container .list-box02 .item .info .user</find>
+      <find>.web-container .banner .title</find>
+      <find>var scrollEvent = function</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>入驻</replace>
@@ -198,11 +110,14 @@
         <option value="E:/经验/js/滚动加载/index.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
         <option value="$PROJECT_DIR$/photo-mescoll.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/lib/mescroll.js" />
-        <option value="$PROJECT_DIR$/callback.php" />
         <option value="E:/经验/模板/web-demo/less/main.less" />
+        <option value="$PROJECT_DIR$/callback.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/../mescroll-demo/dist/mescroll.js" />
+        <option value="$PROJECT_DIR$/js/meSwipe.js" />
         <option value="$PROJECT_DIR$/photo.html" />
+        <option value="$MESSAGE$/Users/KK/Desktop/main.css" />
         <option value="$PROJECT_DIR$/js/lib/Mdropload.js" />
       </list>
     </option>
@@ -228,11 +143,6 @@
             <path>
               <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
               <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,11 +150,6 @@
               <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +230,10 @@
       <workItem from="1558400366389" duration="3511000" />
       <workItem from="1558590861883" duration="2131000" />
       <workItem from="1558661921979" duration="849000" />
-      <workItem from="1559004098430" duration="14363000" />
+      <workItem from="1559004098430" duration="14766000" />
+      <workItem from="1559027840284" duration="1477000" />
+      <workItem from="1559034336417" duration="3459000" />
+      <workItem from="1559090358210" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="实景修改 上拉刷新">
       <created>1559004302923</created>
@@ -390,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559015739816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="实景修改 上拉刷新">
+      <created>1559019216004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559019216004</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73468000" />
+    <option name="totallyTimeSpent" value="79682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -403,7 +318,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="消息" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -418,6 +332,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996277" weight="0.24752475" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003723" side_tool="true" weight="0.2310231" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.22203948" />
+      <window_info anchor="bottom" id="消息" order="14" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,31 +346,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/public/icon07.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon08.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon09.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/swiper.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.min.js" />
     <entry file="file://$PROJECT_DIR$/../五一活动/0428-sp_03/index.html" />
     <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_downEmpty.html" />
     <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_emptyMessage.html" />
@@ -700,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/callback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/经验/模板/web-demo/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -724,17 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="131" column="15" lean-forward="true" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
-          <folding>
-            <element signature="e#1044#2302#0" />
-            <element signature="e#2356#3096#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MESSAGE$/Program Files/JetBrains/WebStorm 2019.1/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -742,88 +614,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$MESSAGE$/Users/KK/AppData/Local/Temp/Rar$DIa5488.49788/Mdropload.js" />
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <element signature="e#1044#2302#0" />
+            <element signature="e#2356#3096#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../0521-icard/static/js/icard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+          <folding>
+            <element signature="e#82#793#0" />
+            <element signature="e#816#16942#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mescroll-demo/base/list-full-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mescroll-demo/dist/mescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="1055" column="20" lean-forward="true" selection-start-line="1055" selection-start-column="20" selection-end-line="1055" selection-end-column="20" />
+          <folding>
+            <element signature="e#496#1985#0" />
+            <element signature="e#2064#5294#0" />
+            <element signature="e#5369#9012#0" />
+            <element signature="e#9084#9415#0" />
+            <element signature="e#9497#17120#0" />
+            <element signature="e#17193#17319#0" />
+            <element signature="e#17393#17522#0" />
+            <element signature="e#17592#17830#0" />
+            <element signature="e#17899#18197#0" />
+            <element signature="e#18263#18729#0" />
+            <element signature="e#18836#18914#0" />
+            <element signature="e#18994#21687#0" />
+            <element signature="e#21794#22172#0" />
+            <element signature="e#22255#23877#0" />
+            <element signature="e#23945#24222#0" />
+            <element signature="e#24288#24579#0" />
+            <element signature="e#24645#24857#0" />
+            <element signature="e#24999#25472#0" />
+            <element signature="e#25561#25861#0" />
+            <element signature="e#26088#26868#0" />
+            <element signature="e#27164#27360#0" />
+            <element signature="e#27549#27719#0" />
+            <element signature="e#27914#28181#0" />
+            <element signature="e#28631#30122#0" />
+            <element signature="e#30191#30564#0" />
+            <element signature="e#30702#31067#0" />
+            <element signature="e#31172#31248#0" />
+            <element signature="e#31329#32722#0" />
+            <element signature="e#32784#32976#0" />
+            <element signature="e#33068#34623#0" />
+            <element signature="e#34700#34963#0" />
+            <element signature="e#35066#35318#0" />
+            <element signature="e#35444#36010#0" />
+            <element signature="e#36278#36846#0" />
+            <element signature="e#36915#38535#0" />
+            <element signature="e#38690#39177#0" />
+            <element signature="e#39261#39496#0" />
+            <element signature="e#39565#39610#0" />
+            <element signature="e#39679#39866#0" />
+            <element signature="e#39933#40018#0" />
+            <element signature="e#40083#40251#0" />
+            <element signature="e#40318#40405#0" />
+            <element signature="e#40473#40694#0" />
+            <element signature="e#40760#41120#0" />
+            <element signature="e#41188#41308#0" />
+            <element signature="e#41372#42477#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="486">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding>
+            <element signature="e#1111#1621#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/meSwipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/经验/js/拖拽/js/drag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/经验/js/拖拽/drag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MESSAGE$/Users/KK/Desktop/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="172" column="1" lean-forward="true" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/经验/js/m-dropload/dist/Mdropload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="267" column="26" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="249" column="97" selection-start-line="249" selection-start-column="97" selection-end-line="249" selection-end-column="97" />
-          <folding>
-            <element signature="e#278#302#0" />
-            <element signature="e#847#942#0" />
-            <element signature="e#993#1123#0" />
-            <element signature="e#1072#1119#0" />
-            <element signature="e#1171#1287#0" />
-            <element signature="e#1204#1243#0" />
-            <element signature="e#1249#1283#0" />
-            <element signature="e#1321#1861#0" />
-            <element signature="e#1348#1787#0" />
-            <element signature="e#1437#1558#0" />
-            <element signature="e#1587#1680#0" />
-            <element signature="e#1686#1743#0" />
-            <element signature="e#1800#1831#0" />
-            <element signature="e#1944#2128#0" />
-            <element signature="e#2018#2057#0" />
-            <element signature="e#2063#2124#0" />
-            <element signature="e#2152#3235#0" />
-            <element signature="e#2178#3232#0" />
-            <element signature="e#3339#3723#0" />
-            <element signature="e#3447#3718#0" />
-            <element signature="e#3505#3572#0" />
-            <element signature="e#3614#3712#0" />
-            <element signature="e#3964#4010#0" />
-            <element signature="e#4056#4137#0" />
-            <element signature="e#4172#4251#0" />
-            <element signature="e#4654#4777#0" />
-            <element signature="e#4815#5866#0" />
-            <element signature="e#4870#5166#0" />
-            <element signature="e#4944#4989#0" />
-            <element signature="e#5017#5077#0" />
-            <element signature="e#5227#5577#0" />
-            <element signature="e#5313#5370#0" />
-            <element signature="e#5404#5476#0" />
-            <element signature="e#5640#5863#0" />
-            <element signature="e#5712#5776#0" />
-            <element signature="e#5782#5835#0" />
-            <element signature="e#5880#6148#0" />
-            <element signature="e#6182#6802#0" />
-            <element signature="e#7586#8556#0" />
-            <element signature="e#7724#7779#0" />
-            <element signature="e#7845#7900#0" />
-            <element signature="e#8361#8390#0" />
-            <element signature="e#9611#9674#0" />
-            <element signature="e#9950#9979#0" />
-            <element signature="e#9985#10014#0" />
-            <element signature="e#10223#10339#0" />
-            <element signature="e#10256#10295#0" />
-            <element signature="e#10301#10335#0" />
-            <element signature="e#10402#10461#0" />
-            <element signature="e#10577#10589#0" />
-            <element signature="e#10632#10666#0" />
-            <element signature="e#10704#10736#0" />
-            <element signature="e#10762#10795#0" />
-            <element signature="e#10823#10859#0" />
-            <element signature="e#11360#12070#0" />
-            <element signature="e#11857#11993#0" />
-            <element signature="e#12006#12035#0" />
-            <element signature="e#12040#12047#0" />
-            <element signature="e#12438#12473#0" />
-            <element signature="e#12526#13590#0" />
-            <element signature="e#12647#12844#0" />
-            <element signature="e#12943#13129#0" />
-            <element signature="e#13303#13363#0" />
-            <element signature="e#13369#13430#0" />
-            <element signature="e#13452#13516#0" />
-            <element signature="e#13522#13587#0" />
-            <element signature="e#13628#13982#0" />
-            <element signature="e#13725#13768#0" />
-            <element signature="e#13789#13837#0" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
         </state>
       </provider>
     </entry>

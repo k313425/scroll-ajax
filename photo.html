@@ -25,6 +25,7 @@
 </div>
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/Mdropload.js"></script>
+<script src="js/meSwipe.js"></script>
 <script src="js/main.js"></script>
 <script>
 	var page = 2;
@@ -69,7 +70,12 @@
 			jQuery('.album-list').albumCallBack(data, cb);
 		}
 	});
-	console.log(dropload.obj.classList[0]);
+	var meSwipe = new MeSwipe(document.querySelector('.album-list'), {
+		height: 50,
+		width: 50,
+	});
+	console.log(dropload.obj.tagName);
+	console.log(meSwipe);
 </script>
 </body>
 </html>
