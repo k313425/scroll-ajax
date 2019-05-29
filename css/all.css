@@ -609,9 +609,6 @@ img {
           flex-grow: 1;
   width: calc(100% - 51px);
 }
-.web-container #mescroll {
-  height: calc(100vh - 56px);
-}
 .web-container .btn-more a {
   margin: 0 auto;
   display: block;
@@ -780,6 +777,12 @@ img {
 }
 .album-container .album-detail .txt p {
   margin: 0;
+}
+/*
+ *mescroll
+*/
+#mescroll {
+  height: 100vh;
 }
 /*
  *weui-form

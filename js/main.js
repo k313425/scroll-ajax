@@ -130,41 +130,43 @@ jQuery.fn.albumCallBack = function (data, cb) {
 			cb && cb.success(); // 没有数据了
 			isLoading = false;
 		}else {
-			jQuery.each(data.data, function (i, item) {
-				var html = '<div class="item">\n' +
-					'<a href="' + item.albumUrl +
-					'">\n' +
-					'<div class="row">\n' +
-					'<div class="col-sm-12"><img src="' + item.photoUrl +
-					'" alt="">\n' +
-					'<p>' + item.photoName +
-					'</p>\n' +
-					'</div>\n' +
-					'</div>\n' +
-					'</a>\n' +
-					'<a href="' + item.linkUrl +
-					'">\n' +
-					'<div class="row info">\n' +
-					'<div class="pho"><img src="' + item.logoUrl +
-					'" alt=""></div>\n' +
-					'<div class="txt">\n' +
-					'<h2 class="ttl">' +  item.name +
-					'\n';
-				if (item.renz === true) {
-					html += '<span class="renz">认证</span>\n';
-				}
-				html += '</h2>\n' +
-					'<p>设计案例：<i>' + item.anli +
-					'</i></p>\n' +
-					'</div>\n' +
-					'</div>\n' +
-					'</a>\n' +
-					'</div>';
-				that.append(html);
-			});
-			page++;
-			cb && cb.success();
-			isLoading = false;
+			setTimeout(function () {
+				jQuery.each(data.data, function (i, item) {
+					var html = '<div class="item">\n' +
+						'<a href="' + item.albumUrl +
+						'">\n' +
+						'<div class="row">\n' +
+						'<div class="col-sm-12"><img src="' + item.photoUrl +
+						'" alt="">\n' +
+						'<p>' + item.photoName +
+						'</p>\n' +
+						'</div>\n' +
+						'</div>\n' +
+						'</a>\n' +
+						'<a href="' + item.linkUrl +
+						'">\n' +
+						'<div class="row info">\n' +
+						'<div class="pho"><img src="' + item.logoUrl +
+						'" alt=""></div>\n' +
+						'<div class="txt">\n' +
+						'<h2 class="ttl">' +  item.name +
+						'\n';
+					if (item.renz === true) {
+						html += '<span class="renz">认证</span>\n';
+					}
+					html += '</h2>\n' +
+						'<p>设计案例：<i>' + item.anli +
+						'</i></p>\n' +
+						'</div>\n' +
+						'</div>\n' +
+						'</a>\n' +
+						'</div>';
+					that.append(html);
+				});
+				page++;
+				cb && cb.success();
+				isLoading = false;
+			}, 30000);
 		}
 	}
 	if (parseInt(data.code) === 400) {
