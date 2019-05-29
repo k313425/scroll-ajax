@@ -173,6 +173,57 @@ jQuery.fn.albumCallBack = function (data, cb) {
 	}
 };
 
+jQuery.fn.albumUpCallBack = function (data, cb) {
+	var that = jQuery(this);
+	if (parseInt(data.code) === 200) {
+		if (data.data.length < 1) {
+			isHaveNot = true;
+			cb && cb.success(); // 没有数据了
+			isLoading = false;
+		}else {
+			jQuery.each(data.data, function (i, item) {
+				var html = '<div class="item">\n' +
+					'<a href="' + item.albumUrl +
+					'">\n' +
+					'<div class="row">\n' +
+					'<div class="col-sm-12"><img src="' + item.photoUrl +
+					'" alt="">\n' +
+					'<p>' + item.photoName +
+					'</p>\n' +
+					'</div>\n' +
+					'</div>\n' +
+					'</a>\n' +
+					'<a href="' + item.linkUrl +
+					'">\n' +
+					'<div class="row info">\n' +
+					'<div class="pho"><img src="' + item.logoUrl +
+					'" alt=""></div>\n' +
+					'<div class="txt">\n' +
+					'<h2 class="ttl">' +  item.name +
+					'\n';
+				if (item.renz === true) {
+					html += '<span class="renz">认证</span>\n';
+				}
+				html += '</h2>\n' +
+					'<p>设计案例：<i>' + item.anli +
+					'</i></p>\n' +
+					'</div>\n' +
+					'</div>\n' +
+					'</a>\n' +
+					'</div>';
+				that.prepend(html);
+			});
+			page++;
+			cb && cb.success();
+			isLoading = false;
+		}
+	}
+	if (parseInt(data.code) === 400) {
+		cb && cb.error();
+		isLoading = false;
+	}
+};
+
 jQuery.fn.albumDetailCallBack = function (data, cb) {
 	var that = jQuery(this);
 	if (parseInt(data.code) === 200) {

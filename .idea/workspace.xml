@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="">
+    <list default="true" id="8992333a-af4b-4e03-be17-fe585fe8b9d0" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/scroll-ajax.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/0510-sp_06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/Mdropload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/Mdropload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,117 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            <state relative-caret-position="269">
+              <caret line="51" column="61" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="61" />
+              <folding>
+                <element signature="e#1664#2147#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../0522-sp_02/js/lib/Mdropload.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="110" column="22" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="110" selection-end-column="22" />
+            <state relative-caret-position="407">
+              <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+              <folding>
+                <element signature="e#3145#4308#0" />
+                <element signature="e#4356#5519#0" />
+                <element signature="e#4363#4855#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>str.t3d</find>
-      <find>upObj</find>
-      <find>status.lock</find>
-      <find>reset</find>
-      <find>pageUrl</find>
-      <find>pageW</find>
-      <find>入住</find>
-      <find>$(</find>
-      <find>$$</find>
-      <find>col-sm-6</find>
-      <find>ad</find>
-      <find>down</find>
-      <find>end</find>
-      <find>cb.</find>
-      <find>var isHaveNot = false; // 是否已经加载完毕</find>
-      <find>isHaveNot</find>
-      <find>endSuccess</find>
-      <find>endErr</find>
-      <find>opt</find>
-      <find>this.status.lock</find>
-      <find>this.status.lock = true</find>
-      <find>scrollEvent</find>
-      <find>error</find>
-      <find>.web-container .list-box02 .item .info .user</find>
-      <find>.web-container .banner .title</find>
-      <find>var scrollEvent = function</find>
-      <find>console.log</find>
-      <find>$</find>
-      <find>JQJQ</find>
-      <find>createCss.innerHTM</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>入驻</replace>
-      <replace>jQuery</replace>
-      <replace>success</replace>
-      <replace>error</replace>
-      <replace>JQ</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\wwwroot\0510-sp_06</dir>
-      <dir>E:\wwwroot\实景\0510-sp_06</dir>
-      <dir>E:\wwwroot\0510-sp_06\js\lib</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/less/all.less" />
-        <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/css/swiper.css" />
-        <option value="$PROJECT_DIR$/js/lib/Mdropload.min.js" />
-        <option value="E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/dist/Mdropload.js" />
-        <option value="$PROJECT_DIR$/doc/md.css" />
-        <option value="$MESSAGE$/Users/KK/Downloads/isscoll/index.html" />
-        <option value="$PROJECT_DIR$/list.html" />
-        <option value="$PROJECT_DIR$/album-detail.html" />
-        <option value="$PROJECT_DIR$/ren-send.html" />
-        <option value="E:/经验/2019/js/滚动加载.js" />
-        <option value="E:/经验/2019/js/滚动加载/滚动加载.js" />
-        <option value="$PROJECT_DIR$/join-send.html" />
-        <option value="$PROJECT_DIR$/ren.html" />
-        <option value="$PROJECT_DIR$/join.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/photo-detail.html" />
-        <option value="$PROJECT_DIR$/shop.html" />
-        <option value="$PROJECT_DIR$/shop-detail.html" />
-        <option value="E:/经验/js/滚动加载/index.html" />
-        <option value="$PROJECT_DIR$/less/main.less" />
-        <option value="$PROJECT_DIR$/photo-mescoll.html" />
-        <option value="$PROJECT_DIR$/js/lib/mescroll.js" />
-        <option value="E:/经验/模板/web-demo/less/main.less" />
-        <option value="$PROJECT_DIR$/callback.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/../mescroll-demo/dist/mescroll.js" />
-        <option value="$PROJECT_DIR$/js/meSwipe.js" />
         <option value="$PROJECT_DIR$/photo.html" />
-        <option value="$MESSAGE$/Users/KK/Desktop/main.css" />
-        <option value="$PROJECT_DIR$/js/lib/Mdropload.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -140,51 +72,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="scroll-ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroll-ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
+              <item name="scroll-ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroll-ajax" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0510-sp_06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0510-sp_06" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lib" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wwwroot\0510-sp_06\css" />
-      <recent name="E:\wwwroot\0510-sp_06\img\common" />
-      <recent name="E:\wwwroot\0510-sp_06\img\tmp" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wwwroot\0510-sp_06\js\lib" />
-      <recent name="E:\wwwroot\0510-sp_06" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,141 +111,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.photo.html">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="photo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/photo.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="shop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/0510-sp_06/shop.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.photo.html" />
-        <item itemvalue="JavaScript Debug.shop.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="" />
-      <created>1557454177960</created>
+      <changelist id="8992333a-af4b-4e03-be17-fe585fe8b9d0" name="默认的" comment="" />
+      <created>1559092046750</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557454177960</updated>
-      <workItem from="1557454179138" duration="22548000" />
-      <workItem from="1557707729936" duration="20567000" />
-      <workItem from="1557736284382" duration="3015000" />
-      <workItem from="1557794406518" duration="956000" />
-      <workItem from="1557796012798" duration="1647000" />
-      <workItem from="1557969236199" duration="317000" />
-      <workItem from="1557987370207" duration="2790000" />
-      <workItem from="1558059990482" duration="631000" />
-      <workItem from="1558061164538" duration="143000" />
-      <workItem from="1558400366389" duration="3511000" />
-      <workItem from="1558590861883" duration="2131000" />
-      <workItem from="1558661921979" duration="849000" />
-      <workItem from="1559004098430" duration="14766000" />
-      <workItem from="1559027840284" duration="1477000" />
-      <workItem from="1559034336417" duration="3459000" />
-      <workItem from="1559090358210" duration="1332000" />
+      <updated>1559092046750</updated>
+      <workItem from="1559092049099" duration="208000" />
     </task>
-    <task id="LOCAL-00001" summary="实景修改 上拉刷新">
-      <created>1559004302923</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559004302923</updated>
-    </task>
-    <task id="LOCAL-00002" summary="实景修改 上拉刷新">
-      <created>1559005020750</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1559005020750</updated>
-    </task>
-    <task id="LOCAL-00003" summary="实景修改 上拉刷新">
-      <created>1559006153219</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1559006153219</updated>
-    </task>
-    <task id="LOCAL-00004" summary="实景修改 上拉刷新">
-      <created>1559006956323</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1559006956323</updated>
-    </task>
-    <task id="LOCAL-00005" summary="实景修改 上拉刷新">
-      <created>1559007478947</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559007478947</updated>
-    </task>
-    <task id="LOCAL-00006" summary="实景修改 上拉刷新">
-      <created>1559008096891</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1559008096891</updated>
-    </task>
-    <task id="LOCAL-00007" summary="实景修改 上拉刷新">
-      <created>1559011218636</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1559011218636</updated>
-    </task>
-    <task id="LOCAL-00008" summary="实景修改 上拉刷新">
-      <created>1559012717495</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1559012717495</updated>
-    </task>
-    <task id="LOCAL-00009" summary="实景修改 上拉刷新">
-      <created>1559015739816</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1559015739816</updated>
-    </task>
-    <task id="LOCAL-00010" summary="实景修改 上拉刷新">
-      <created>1559019216004</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1559019216004</updated>
-    </task>
-    <task id="LOCAL-00011" summary="实景修改 上拉刷新">
-      <created>1559091400202</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1559091400202</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80139000" />
+    <option name="totallyTimeSpent" value="208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="运行" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -340,14 +148,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="找到" order="7" weight="0.56085527" />
-      <window_info anchor="bottom" id="运行" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996277" weight="0.24752475" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003723" side_tool="true" weight="0.2310231" />
-      <window_info anchor="bottom" id="调试" order="13" weight="0.22203948" />
-      <window_info anchor="bottom" id="消息" order="14" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,429 +156,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="实景修改 上拉刷新" />
-    <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_downEmpty.html" />
-    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_emptyMessage.html" />
-    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index.html" />
-    <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/dist/Mdropload.js" />
-    <entry file="file://$MESSAGE$/Users/KK/Downloads/isscoll/index.html" />
-    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_Ajax.js" />
-    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_callBack.js" />
-    <entry file="file://$PROJECT_DIR$/../TuKu-JingTaiZiYuanNew/js/_content.js" />
-    <entry file="file://$PROJECT_DIR$/../五一活动/0428-sp_03/js/main.js" />
-    <entry file="file://E:/经验/2019/js/isscoll/index.html" />
-    <entry file="file://$PROJECT_DIR$/../五一活动/0416-pc_01/src/js/index.js" />
-    <entry file="file://E:/经验/2019/js/tag.php" />
-    <entry file="file://E:/经验/2019/js/滚动加载.js" />
-    <entry file="file://E:/经验/2019/js/滚动加载/滚动加载tag.php" />
-    <entry file="file://E:/经验/2019/js/滚动加载/滚动加载.js" />
-    <entry file="file://$PROJECT_DIR$/js/plugins.js" />
-    <entry file="file://$PROJECT_DIR$/js/lib/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../0510-sp_06 - 副本/js/lib/Mdropload.js" />
-    <entry file="file://$PROJECT_DIR$/../0510-sp_06 - 副本/callback.php" />
-    <entry file="file://$PROJECT_DIR$/join-send.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ren.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/public/icon13.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/md.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ren-send.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/经验/js/滚动加载/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mescroll.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="585" column="4" selection-start-line="585" selection-start-column="4" selection-end-line="585" selection-end-column="4" />
-          <folding>
-            <element signature="e#18#213#0" />
-            <element signature="e#438#490#0" />
-            <element signature="e#508#553#0" />
-            <element signature="e#566#611#0" />
-            <element signature="e#612#662#0" />
-            <element signature="e#666#770#0" />
-            <element signature="e#771#827#0" />
-            <element signature="e#867#910#0" />
-            <element signature="e#911#952#0" />
-            <element signature="e#962#1002#0" />
-            <element signature="e#1003#1055#0" />
-            <element signature="e#1065#1087#0" />
-            <element signature="e#1095#1130#0" />
-            <element signature="e#1133#1160#0" />
-            <element signature="e#1170#1197#0" />
-            <element signature="e#1200#1228#0" />
-            <element signature="e#1233#1276#0" />
-            <element signature="e#1277#1451#0" />
-            <element signature="e#1452#1499#0" />
-            <element signature="e#1508#1538#0" />
-            <element signature="e#1545#1569#0" />
-            <element signature="e#1570#1602#0" />
-            <element signature="e#1637#1688#0" />
-            <element signature="e#1705#1787#0" />
-            <element signature="e#1795#1855#0" />
-            <element signature="e#1864#1913#0" />
-            <element signature="e#1952#2022#0" />
-            <element signature="e#2249#2305#0" />
-            <element signature="e#2318#2364#0" />
-            <element signature="e#2365#2508#0" />
-            <element signature="e#2520#2542#0" />
-            <element signature="e#2556#2580#0" />
-            <element signature="e#2595#2620#0" />
-            <element signature="e#2633#2656#0" />
-            <element signature="e#2668#2685#0" />
-            <element signature="e#2698#2716#0" />
-            <element signature="e#2717#2848#0" />
-            <element signature="e#2854#2921#0" />
-            <element signature="e#2933#3029#0" />
-            <element signature="e#3046#3091#0" />
-            <element signature="e#3115#3140#0" />
-            <element signature="e#3163#3187#0" />
-            <element signature="e#3199#3216#0" />
-            <element signature="e#3228#3247#0" />
-            <element signature="e#3259#3278#0" />
-            <element signature="e#3289#3305#0" />
-            <element signature="e#3316#3335#0" />
-            <element signature="e#3346#3365#0" />
-            <element signature="e#3376#3392#0" />
-            <element signature="e#3403#3422#0" />
-            <element signature="e#3433#3452#0" />
-            <element signature="e#3463#3479#0" />
-            <element signature="e#3490#3509#0" />
-            <element signature="e#3520#3538#0" />
-            <element signature="e#3573#3963#0" />
-            <element signature="e#3587#3606#0" />
-            <element signature="e#3619#3640#0" />
-            <element signature="e#3653#3674#0" />
-            <element signature="e#3686#3704#0" />
-            <element signature="e#3716#3737#0" />
-            <element signature="e#3749#3770#0" />
-            <element signature="e#3782#3800#0" />
-            <element signature="e#3812#3833#0" />
-            <element signature="e#3845#3866#0" />
-            <element signature="e#3878#3896#0" />
-            <element signature="e#3908#3929#0" />
-            <element signature="e#3941#3961#0" />
-            <element signature="e#4237#4846#0" />
-            <element signature="e#4858#4949#0" />
-            <element signature="e#4961#5044#0" />
-            <element signature="e#5052#5096#0" />
-            <element signature="e#5103#5153#0" />
-            <element signature="e#5163#5195#0" />
-            <element signature="e#5203#5255#0" />
-            <element signature="e#5266#5640#0" />
-            <element signature="e#5654#6409#0" />
-            <element signature="e#6422#7704#0" />
-            <element signature="e#7718#9487#0" />
-            <element signature="e#7728#7901#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/mescroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="84" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#9084#9415#0" />
-            <element signature="e#9497#17120#0" />
-            <element signature="e#17193#17319#0" />
-            <element signature="e#17393#17522#0" />
-            <element signature="e#17592#17830#0" />
-            <element signature="e#17899#18197#0" />
-            <element signature="e#18263#18729#0" />
-            <element signature="e#18836#18914#0" />
-            <element signature="e#18994#21687#0" />
-            <element signature="e#21794#22172#0" />
-            <element signature="e#22255#23877#0" />
-            <element signature="e#23945#24222#0" />
-            <element signature="e#24288#24579#0" />
-            <element signature="e#24645#24857#0" />
-            <element signature="e#24999#25472#0" />
-            <element signature="e#25561#25861#0" />
-            <element signature="e#26088#26868#0" />
-            <element signature="e#26940#26980#0" />
-            <element signature="e#27055#27093#0" />
-            <element signature="e#27164#27360#0" />
-            <element signature="e#27549#27719#0" />
-            <element signature="e#27914#28181#0" />
-            <element signature="e#28631#30122#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/经验/模板/web-demo/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo-mescoll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#1443#1617#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MESSAGE$/Program Files/JetBrains/WebStorm 2019.1/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14104" column="4" selection-start-line="14104" selection-start-column="4" selection-end-line="14104" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MESSAGE$/Users/KK/AppData/Local/Temp/Rar$DIa5488.49788/Mdropload.js" />
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
-          <folding>
-            <element signature="e#1044#2302#0" />
-            <element signature="e#2356#3096#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../0521-icard/static/js/icard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="13" />
-          <folding>
-            <element signature="e#82#793#0" />
-            <element signature="e#816#16942#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mescroll-demo/base/list-full-lock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mescroll-demo/dist/mescroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="1055" column="20" lean-forward="true" selection-start-line="1055" selection-start-column="20" selection-end-line="1055" selection-end-column="20" />
-          <folding>
-            <element signature="e#496#1985#0" />
-            <element signature="e#2064#5294#0" />
-            <element signature="e#5369#9012#0" />
-            <element signature="e#9084#9415#0" />
-            <element signature="e#9497#17120#0" />
-            <element signature="e#17193#17319#0" />
-            <element signature="e#17393#17522#0" />
-            <element signature="e#17592#17830#0" />
-            <element signature="e#17899#18197#0" />
-            <element signature="e#18263#18729#0" />
-            <element signature="e#18836#18914#0" />
-            <element signature="e#18994#21687#0" />
-            <element signature="e#21794#22172#0" />
-            <element signature="e#22255#23877#0" />
-            <element signature="e#23945#24222#0" />
-            <element signature="e#24288#24579#0" />
-            <element signature="e#24645#24857#0" />
-            <element signature="e#24999#25472#0" />
-            <element signature="e#25561#25861#0" />
-            <element signature="e#26088#26868#0" />
-            <element signature="e#27164#27360#0" />
-            <element signature="e#27549#27719#0" />
-            <element signature="e#27914#28181#0" />
-            <element signature="e#28631#30122#0" />
-            <element signature="e#30191#30564#0" />
-            <element signature="e#30702#31067#0" />
-            <element signature="e#31172#31248#0" />
-            <element signature="e#31329#32722#0" />
-            <element signature="e#32784#32976#0" />
-            <element signature="e#33068#34623#0" />
-            <element signature="e#34700#34963#0" />
-            <element signature="e#35066#35318#0" />
-            <element signature="e#35444#36010#0" />
-            <element signature="e#36278#36846#0" />
-            <element signature="e#36915#38535#0" />
-            <element signature="e#38690#39177#0" />
-            <element signature="e#39261#39496#0" />
-            <element signature="e#39565#39610#0" />
-            <element signature="e#39679#39866#0" />
-            <element signature="e#39933#40018#0" />
-            <element signature="e#40083#40251#0" />
-            <element signature="e#40318#40405#0" />
-            <element signature="e#40473#40694#0" />
-            <element signature="e#40760#41120#0" />
-            <element signature="e#41188#41308#0" />
-            <element signature="e#41372#42477#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        <state relative-caret-position="269">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="61" />
           <folding>
-            <element signature="e#1111#1621#0" />
+            <element signature="e#1664#2147#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/meSwipe.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="407">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#3145#4308#0" />
+            <element signature="e#4356#5519#0" />
+            <element signature="e#4363#4855#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/经验/js/拖拽/js/drag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/经验/js/拖拽/drag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MESSAGE$/Users/KK/Desktop/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="172" column="1" lean-forward="true" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/经验/js/m-dropload/dist/Mdropload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="267" column="26" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../0522-sp_02/js/lib/Mdropload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="110" column="22" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
         </state>
       </provider>
     </entry>

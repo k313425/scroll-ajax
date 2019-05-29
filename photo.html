@@ -35,6 +35,33 @@
 	// 滚动代码
 	var dropload = Mdropload(document.querySelector('.album-list'), {
 		height: 50,
+		up: {
+			fn: function (cb) {
+				if (isLoading) {
+					return false;
+				}
+				if (isHaveNot) {
+					cb.end();
+					return false;
+				}
+				isLoading = true;
+				jQuery('.album-list').ajaxInfo({
+					url: pageUrl + page,
+					cb: cb,
+					sucess: function (data, cb) {
+						jQuery('.album-list').albumUpCallBack(data, cb);
+					}
+				});
+			},
+			template: {
+				none: '上拉刷新',
+				message: '释放更新',
+				loading: '正在更新，请稍后',
+				success: '刷新成功',
+				end: '虾面没有了',
+				error: '刷新失败'
+			}
+		},
 		down: {
 			fn: function (cb) {
 				if (isLoading) {
@@ -61,7 +88,7 @@
 				end: '虾面没有了',
 				error: '刷新失败'
 			}
-		}
+		},
 	});
 	jQuery('.album-list').ajaxInfo({
 		url: pageUrl + page,
