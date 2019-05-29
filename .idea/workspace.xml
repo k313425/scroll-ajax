@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e3bd3f-dac2-4f2a-b7a6-b6d42e18e0f1" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lib/Mdropload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/Mdropload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +19,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+            <state relative-caret-position="893">
+              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../0522-sp_02/js/lib/Mdropload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="110" column="22" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="110" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -39,7 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.js-mdropload-down</find>
       <find>str.t3d</find>
       <find>upObj</find>
       <find>status.lock</find>
@@ -48,7 +53,6 @@
       <find>pageW</find>
       <find>入住</find>
       <find>$(</find>
-      <find>$</find>
       <find>$$</find>
       <find>col-sm-6</find>
       <find>ad</find>
@@ -68,12 +72,16 @@
       <find>.web-container .banner .title</find>
       <find>var scrollEvent = function</find>
       <find>console.log</find>
+      <find>$</find>
+      <find>JQJQ</find>
+      <find>createCss.innerHTM</find>
     </findStrings>
     <replaceStrings>
       <replace>入驻</replace>
       <replace>jQuery</replace>
       <replace>success</replace>
       <replace>error</replace>
+      <replace>JQ</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\wwwroot\0510-sp_06</dir>
@@ -233,7 +241,7 @@
       <workItem from="1559004098430" duration="14766000" />
       <workItem from="1559027840284" duration="1477000" />
       <workItem from="1559034336417" duration="3459000" />
-      <workItem from="1559090358210" duration="875000" />
+      <workItem from="1559090358210" duration="1332000" />
     </task>
     <task id="LOCAL-00001" summary="实景修改 上拉刷新">
       <created>1559004302923</created>
@@ -305,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559019216004</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="实景修改 上拉刷新">
+      <created>1559091400202</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559091400202</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79682000" />
+    <option name="totallyTimeSpent" value="80139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -346,7 +361,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="实景修改 上拉刷新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../五一活动/0428-sp_03/index.html" />
     <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_downEmpty.html" />
     <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index_emptyMessage.html" />
     <entry file="file://E:/经验/2019/vue/m-dropload/m-dropload-7a1e22a1e98191799e22aa42708d21ab8041539c/example/index.html" />
@@ -754,10 +768,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../0522-sp_02/js/lib/Mdropload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="110" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/Mdropload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+        <state relative-caret-position="893">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -44,18 +44,18 @@
 		mouseXY: function mouseXY(_e) {
 			// 用于扩展JQ的触摸事件
 			try {
-				var $x, $y;
+				var JQx, JQy;
 				if (_e.originalEvent && _e.originalEvent.changedTouches) {
-					$x = _e.originalEvent.changedTouches[0].pageX;
-					$y = _e.originalEvent.changedTouches[0].pageY;
+					JQx = _e.originalEvent.changedTouches[0].pageX;
+					JQy = _e.originalEvent.changedTouches[0].pageY;
 				} else if (_e.changedTouches) {
-					$x = _e.changedTouches[0].pageX;
-					$y = _e.changedTouches[0].pageY;
+					JQx = _e.changedTouches[0].pageX;
+					JQy = _e.changedTouches[0].pageY;
 				} else {
-					$x = _e.pageX;
-					$y = _e.pageY;
+					JQx = _e.pageX;
+					JQy = _e.pageY;
 				}
-				return {x: $x, y: $y};
+				return {x: JQx, y: JQy};
 			} catch (err) {
 				console.log(err);
 			}
@@ -71,11 +71,43 @@
 			}
 		}
 	};
-	var css$1 = {
+	var cssJQ1 = {
 		init: function init() {
 			// 初始化CSS样式
 			var createCss = document.createElement('style');
-			createCss.innerHTML = '\n        .js-mdropload{\n            z-index:1;\n            -webkit-transform: translateZ(0);   \n            transform: translateZ(0);\n            -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n            -webkit-perspective: 1000;\n            perspective: 1000;\n        }\n        .js-mdropload-up {\n            position: absolute;\n        }\n        .js-mdropload-down{\n            transition-duration:.5s;\n            -webkit-transition-duration:.5s;\n        }\n        .js-mdropload-up{\n            opacity:0;\n            min-height:30px;\n        }\n        .js-mdropload-down{\n            height:60px;\n            line-height:60px;\n        }\n        .js-mdropload-up,.js-mdropload-down{\n            text-align: center;\n            line-height:30px;\n            width: 100%;\n        }\n        .js-mdropload-message {\n            opacity:0;\n        }\n        ';
+			createCss.innerHTML = '.js-mdropload {\n' +
+				'\tz-index: 1;\n' +
+				'\t-webkit-transform: translateZ(0);\n' +
+				'\ttransform: translateZ(0);\n' +
+				'\t-webkit-backface-visibility: hidden;\n' +
+				'\tbackface-visibility: hidden;\n' +
+				'\t-webkit-perspective: 1000;\n' +
+				'\tperspective: 1000;\n' +
+				'}\n' +
+				'.js-mdropload-up {\n' +
+				'\tposition: absolute;\n' +
+				'}\n' +
+				'.js-mdropload-down {\n' +
+				'\ttransition-duration: .5s;\n' +
+				'\t-webkit-transition-duration: .5s;\n' +
+				'}\n' +
+				'.js-mdropload-up {\n' +
+				'\topacity: 0;\n' +
+				'\tmin-height: 30px;\n' +
+				'}\n' +
+				'.js-mdropload-down {\n' +
+				'\tmargin: 20px 0;\n' +
+				'\tmin-height: 30px;\n' +
+				'}\n' +
+				'.js-mdropload-up, .js-mdropload-down {\n' +
+				'\ttext-align: center;\n' +
+				'\tfont-size: 15px;\n' +
+				'\tline-height: 30px;\n' +
+				'\twidth: 100%;\n' +
+				'}\n' +
+				'.js-mdropload-message {\n' +
+				'\topacity: 0;\n' +
+				'}\n';
 			document.body.appendChild(createCss);
 		}
 	};
@@ -113,12 +145,12 @@
 		};
 		return fn;
 	};
-	var $hasTouch = "ontouchstart" in window;
-	var eventStart = $hasTouch ? "touchstart" : "mousedown";
-	var eventEnd = $hasTouch ? "touchend" : "mouseup";
-	var eventMove = $hasTouch ? "touchmove" : "mousemove";
-	var eventResize = $hasTouch ? "orientationchange" : "resize";
-	var eventcancel = $hasTouch ? "touchcancel" : "mouseup";
+	var JQhasTouch = "ontouchstart" in window;
+	var eventStart = JQhasTouch ? "touchstart" : "mousedown";
+	var eventEnd = JQhasTouch ? "touchend" : "mouseup";
+	var eventMove = JQhasTouch ? "touchmove" : "mousemove";
+	var eventResize = JQhasTouch ? "orientationchange" : "resize";
+	var eventcancel = JQhasTouch ? "touchcancel" : "mouseup";
 	var touchEvent = {
 		eventStart: eventStart,
 		eventEnd: eventEnd,
@@ -287,26 +319,26 @@
 		// fixbug touchend可能异常不触发
 		callback.call(this).reset();
 	}
-	var $that = window;
-	var $d = void 0;
-	var $b = void 0;
-	var $touch;
-	$touch = function $touch(element, _opt) {
-		var $obj = null;
+	var JQthat = window;
+	var JQd = void 0;
+	var JQb = void 0;
+	var JQtouch;
+	JQtouch = function JQtouch(element, _opt) {
+		var JQobj = null;
 		var that = this;
-		$d = $that.document;
-		$b = $d.body;
+		JQd = JQthat.document;
+		JQb = JQd.body;
 		if (element == undefined) {
-			$obj = $b;
+			JQobj = JQb;
 		} else {
-			$obj = element;
+			JQobj = element;
 		}
 		that.opt = _opt;
 		// 动画时长
 		that.opt.animationTime = that.opt.animationTime || .5;
 		// 最大可拉取步长
 		that.opt.windowHeight = window.innerHeight;
-		that.obj = $obj;
+		that.obj = JQobj;
 		that.obj.css = function (key, value) {
 			if (arguments.length === 2) {
 				utils.css(this, key, value);
@@ -332,7 +364,7 @@
 		function touchstart(e) {
 			touchStart.call(that, e);
 		}
-		function touchend$$1(e) {
+		function touchendJQ1(e) {
 			touchend.call(that, e);
 		}
 		function touchmove(e) {
@@ -346,22 +378,22 @@
 		function eventscroll(e) {
 			scrollEvent.call(that, e);
 		}
-		$obj[str.a](touchEvent.eventStart, touchstart);
-		$obj[str.a](touchEvent.eventEnd, touchend$$1);
-		$obj[str.a](touchEvent.eventMove, touchmove);
-		$obj[str.a](touchEvent.eventcancel, touchcancel);
+		JQobj[str.a](touchEvent.eventStart, touchstart);
+		JQobj[str.a](touchEvent.eventEnd, touchendJQ1);
+		JQobj[str.a](touchEvent.eventMove, touchmove);
+		JQobj[str.a](touchEvent.eventcancel, touchcancel);
 		window[str.a](touchEvent.eventEnd, touchcancel);
-		$obj[str.a](str.te, transitionedn);
+		JQobj[str.a](str.te, transitionedn);
 		window.onscroll = eventscroll.bind(that);
 		// 销毁
 		that.destroy = function () {
 			callback.call(that).reset();
-			$obj[str.r](touchEvent.eventStart, touchstart);
-			$obj[str.r](touchEvent.eventEnd, touchend$$1);
-			$obj[str.r](touchEvent.eventMove, touchmove);
-			$obj[str.r](touchEvent.eventcancel, touchcancel);
-			$obj[str.r](str.te, transitionedn);
-			$obj.classList.remove(str.jmd);
+			JQobj[str.r](touchEvent.eventStart, touchstart);
+			JQobj[str.r](touchEvent.eventEnd, touchendJQ1);
+			JQobj[str.r](touchEvent.eventMove, touchmove);
+			JQobj[str.r](touchEvent.eventcancel, touchcancel);
+			JQobj[str.r](str.te, transitionedn);
+			JQobj.classList.remove(str.jmd);
 			window.onscroll = null;
 			// window[str.r](str.scroll, eventscroll);
 			window[str.r](touchEvent.eventcancel, touchcancel);
@@ -376,10 +408,10 @@
 			// that = null;
 		};
 		// 初始化CSS
-		utils.css($obj, str.tf, str.t3d + '(0,0,0)');
-		utils.css($obj, 'position', 'relative', true);
-		utils.css($obj, 'z-index', '20', true);
-		utils.css($obj, str.td, that.opt.animationTime);
+		utils.css(JQobj, str.tf, str.t3d + '(0,0,0)');
+		utils.css(JQobj, 'position', 'relative', true);
+		utils.css(JQobj, 'z-index', '20', true);
+		utils.css(JQobj, str.td, that.opt.animationTime);
 		that.initTemplate();
 		that.status = {
 			lock: false,
@@ -387,25 +419,25 @@
 		};
 		return that;
 	};
-	$touch.prototype.cancel = function () {
+	JQtouch.prototype.cancel = function () {
 		callback.call(this).reset();
 	};
-	$touch.prototype.initTemplate = function () {
+	JQtouch.prototype.initTemplate = function () {
 		// 初始化上部分
-		var $div;
+		var JQdiv;
 		var that = this;
 		if (!that.opt.up.isNull && !document.querySelector('.' + str.jmdUp)) {
-			$div = document.createElement('div');
-			$div.innerHTML = that.opt.up.template.none;
-			$div.className = str.jmdUp;
-			this.obj.parentNode.insertBefore($div, this.obj);
+			JQdiv = document.createElement('div');
+			JQdiv.innerHTML = that.opt.up.template.none;
+			JQdiv.className = str.jmdUp;
+			this.obj.parentNode.insertBefore(JQdiv, this.obj);
 		}
 		// 初始化下部分
 		if (!this.opt.down.isNull && !this.obj.parentNode.querySelector('.' + str.jmdDown)) {
-			$div = document.createElement('div');
-			$div.innerHTML = this.opt.down.template.none;
-			$div.className = str.jmdDown;
-			utils.insertAfter(this.obj, $div);
+			JQdiv = document.createElement('div');
+			JQdiv.innerHTML = this.opt.down.template.none;
+			JQdiv.className = str.jmdDown;
+			utils.insertAfter(this.obj, JQdiv);
 		}
 		that.upObj = this.obj.parentNode.querySelector('.' + str.jmdUp);
 		that.downObj = this.obj.parentNode.querySelector('.' + str.jmdDown);
@@ -427,7 +459,7 @@
 	};
 	var index = (function (_el, _opt) {
 		// 参数初始化
-		css$1.init();
+		cssJQ1.init();
 		// 如果_el传递进来是非ELEMENT 则进行转换
 		if (!(_el instanceof Element)) {
 			_el = document.querySelector(_el);
@@ -436,9 +468,9 @@
 			throw '1001:无法寻找到可设置的html节点,请确认后再次调用.';
 		}
 		_el.classList.add(str.jmd);
-		var $fn = new $touch(_el, _opt);
-		//$fn.prototype = $touch.prototype;
-		return $fn;
+		var JQfn = new JQtouch(_el, _opt);
+		//JQfn.prototype = JQtouch.prototype;
+		return JQfn;
 	});
 	return index;
 })));
