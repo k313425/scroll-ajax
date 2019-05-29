@@ -1,19 +1,18 @@
 // page-scroller
-jQuery(function(){
-  jQuery(document).on('click','a[href*=\\#]:not([href=\\#])',function(){
-    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'')
-      && location.hostname === this.hostname) {
-      var jQuerytarget = jQuery(this.hash);
-      jQuerytarget = jQuerytarget.length && jQuerytarget || jQuery('[name=' + this.hash.slice(1) +']');
-      if (jQuerytarget.length) {
-        var targetOffset = jQuerytarget.offset().top;
-        jQuery('html,body').animate({scrollTop: targetOffset}, 1000);
-        return false;
-      }
-    }
-  });
+jQuery(function () {
+	jQuery(document).on('click', 'a[href*=\\#]:not([href=\\#])', function () {
+		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '')
+			&& location.hostname === this.hostname) {
+			var jQuerytarget = jQuery(this.hash);
+			jQuerytarget = jQuerytarget.length && jQuerytarget || jQuery('[name=' + this.hash.slice(1) + ']');
+			if (jQuerytarget.length) {
+				var targetOffset = jQuerytarget.offset().top;
+				jQuery('html,body').animate({scrollTop: targetOffset}, 1000);
+				return false;
+			}
+		}
+	});
 });
-
 /**
  * Ajax相关操作
  * Created by XX on XX/XX/XX.
@@ -21,8 +20,8 @@ jQuery(function(){
 // { url: pageUrl, cb: cb, sucess: function (data, cb) {}
 jQuery.fn.ajaxInfo = function (obj) {
 	// 已经全部加载完毕
-	if (isHaveNot)
-		return false;
+	if (isLoading) return false;
+	if (isHaveNot) return false;
 	jQuery.ajax({
 		type: "post",
 		data: {},
@@ -37,7 +36,6 @@ jQuery.fn.ajaxInfo = function (obj) {
 		}
 	});
 };
-
 jQuery.fn.shopCallBack = function (data, cb) {
 	var that = jQuery(this);
 	if (parseInt(data.code) === 200) {
@@ -45,7 +43,7 @@ jQuery.fn.shopCallBack = function (data, cb) {
 			isHaveNot = true;
 			cb && cb.end(); // 没有数据了
 			isLoading = false;
-		}else {
+		} else {
 			jQuery.each(data.data, function (i, item) {
 				var html = '<div class="item"><a href="' + item.linkUrl +
 					'">\n' +
@@ -53,7 +51,7 @@ jQuery.fn.shopCallBack = function (data, cb) {
 					'<div class="pho"><img src="' + item.logoUrl +
 					'" alt=""></div>\n' +
 					'<div class="txt">\n' +
-					'<h2 class="ttl">' +  item.name +
+					'<h2 class="ttl">' + item.name +
 					'\n';
 				if (item.renz === true) {
 					html += '<span class="renz">认证</span>\n';
@@ -87,7 +85,6 @@ jQuery.fn.shopCallBack = function (data, cb) {
 		isLoading = false;
 	}
 };
-
 jQuery.fn.shopDetailCallBack = function (data, cb) {
 	var that = jQuery(this).find('.row');
 	if (parseInt(data.code) === 200) {
@@ -95,7 +92,7 @@ jQuery.fn.shopDetailCallBack = function (data, cb) {
 			isHaveNot = true;
 			cb && cb.end(); // 没有数据了
 			isLoading = false;
-		}else {
+		} else {
 			jQuery.each(data.data, function (i, item) {
 				var html = '<div class="col-sm-6">\n' +
 					'<a href="' + item.linkUrl +
@@ -121,68 +118,16 @@ jQuery.fn.shopDetailCallBack = function (data, cb) {
 		isLoading = false;
 	}
 };
-
 jQuery.fn.albumCallBack = function (data, cb) {
 	var that = jQuery(this);
 	if (parseInt(data.code) === 200) {
 		if (data.data.length < 1) {
 			isHaveNot = true;
-			cb && cb.success(); // 没有数据了
+			cb && cb.success(data.data.length); // 没有数据了
 			isLoading = false;
-		}else {
-			setTimeout(function () {
-				jQuery.each(data.data, function (i, item) {
-					var html = '<div class="item">\n' +
-						'<a href="' + item.albumUrl +
-						'">\n' +
-						'<div class="row">\n' +
-						'<div class="col-sm-12"><img src="' + item.photoUrl +
-						'" alt="">\n' +
-						'<p>' + item.photoName +
-						'</p>\n' +
-						'</div>\n' +
-						'</div>\n' +
-						'</a>\n' +
-						'<a href="' + item.linkUrl +
-						'">\n' +
-						'<div class="row info">\n' +
-						'<div class="pho"><img src="' + item.logoUrl +
-						'" alt=""></div>\n' +
-						'<div class="txt">\n' +
-						'<h2 class="ttl">' +  item.name +
-						'\n';
-					if (item.renz === true) {
-						html += '<span class="renz">认证</span>\n';
-					}
-					html += '</h2>\n' +
-						'<p>设计案例：<i>' + item.anli +
-						'</i></p>\n' +
-						'</div>\n' +
-						'</div>\n' +
-						'</a>\n' +
-						'</div>';
-					that.append(html);
-				});
-				page++;
-				cb && cb.success();
-				isLoading = false;
-			}, 30000);
-		}
-	}
-	if (parseInt(data.code) === 400) {
-		cb && cb.error();
-		isLoading = false;
-	}
-};
-
-jQuery.fn.albumUpCallBack = function (data, cb) {
-	var that = jQuery(this);
-	if (parseInt(data.code) === 200) {
-		if (data.data.length < 1) {
-			isHaveNot = true;
-			cb && cb.success(); // 没有数据了
-			isLoading = false;
-		}else {
+		} else {
+			console.log(data.data.length);
+			cb && cb.success(data.data.length);
 			jQuery.each(data.data, function (i, item) {
 				var html = '<div class="item">\n' +
 					'<a href="' + item.albumUrl +
@@ -201,7 +146,56 @@ jQuery.fn.albumUpCallBack = function (data, cb) {
 					'<div class="pho"><img src="' + item.logoUrl +
 					'" alt=""></div>\n' +
 					'<div class="txt">\n' +
-					'<h2 class="ttl">' +  item.name +
+					'<h2 class="ttl">' + item.name.substr(0,8) + (item.name.length > 8?'...':'') +
+					'\n';
+				if (item.renz === true) {
+					html += '<span class="renz">认证</span>\n';
+				}
+				html += '</h2>\n' +
+					'<p>设计案例：<i>' + item.anli +
+					'</i></p>\n' +
+					'</div>\n' +
+					'</div>\n' +
+					'</a>\n' +
+					'</div>';
+				that.append(html);
+			});
+			page++;
+			isLoading = false;
+		}
+	}
+	if (parseInt(data.code) === 400) {
+		cb && cb.error();
+		isLoading = false;
+	}
+};
+jQuery.fn.albumUpCallBack = function (data, cb) {
+	var that = jQuery(this);
+	if (parseInt(data.code) === 200) {
+		if (data.data.length < 1) {
+			isHaveNot = true;
+			cb && cb.success(); // 没有数据了
+			isLoading = false;
+		} else {
+			jQuery.each(data.data, function (i, item) {
+				var html = '<div class="item">\n' +
+					'<a href="' + item.albumUrl +
+					'">\n' +
+					'<div class="row">\n' +
+					'<div class="col-sm-12"><img src="' + item.photoUrl +
+					'" alt="">\n' +
+					'<p>' + item.photoName +
+					'</p>\n' +
+					'</div>\n' +
+					'</div>\n' +
+					'</a>\n' +
+					'<a href="' + item.linkUrl +
+					'">\n' +
+					'<div class="row info">\n' +
+					'<div class="pho"><img src="' + item.logoUrl +
+					'" alt=""></div>\n' +
+					'<div class="txt">\n' +
+					'<h2 class="ttl">' + item.name +
 					'\n';
 				if (item.renz === true) {
 					html += '<span class="renz">认证</span>\n';
@@ -225,7 +219,6 @@ jQuery.fn.albumUpCallBack = function (data, cb) {
 		isLoading = false;
 	}
 };
-
 jQuery.fn.albumDetailCallBack = function (data, cb) {
 	var that = jQuery(this);
 	if (parseInt(data.code) === 200) {
@@ -233,7 +226,7 @@ jQuery.fn.albumDetailCallBack = function (data, cb) {
 			isHaveNot = true;
 			cb && cb.end(); // 没有数据了
 			isLoading = false;
-		}else {
+		} else {
 			jQuery.each(data.imgPhoto, function (i, item) {
 				var html = '<div class="swiper-slide item"><img src="' + item +
 					'" alt=""></div>';
@@ -249,3 +242,5 @@ jQuery.fn.albumDetailCallBack = function (data, cb) {
 		isLoading = false;
 	}
 };
+
+

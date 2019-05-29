@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8992333a-af4b-4e03-be17-fe585fe8b9d0" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/callback0.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/callback.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/all.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
@@ -12,7 +14,7 @@
       <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-mescoll.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-mescroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-mescroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-mescroll.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,24 +26,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/main.less">
+        <entry file="file://$PROJECT_DIR$/photo-mescroll.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="746" column="18" lean-forward="true" selection-start-line="746" selection-start-column="18" selection-end-line="746" selection-end-column="18" />
+            <state relative-caret-position="155">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
               <folding>
-                <element signature="e#11682#12366#0" />
+                <element signature="e#1162#1858#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/photo-mescroll.html">
+        <entry file="file://$PROJECT_DIR$/js/lib/mescroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="194">
+              <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#9494#17111#0" />
+                <element signature="e#9677#10412#0" />
+                <element signature="e#10629#15006#0" />
+                <element signature="e#10953#14308#0" />
+                <element signature="e#14329#14956#0" />
+                <element signature="e#18254#18720#0" />
+                <element signature="e#18985#21678#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,12 +61,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+            <state relative-caret-position="227">
+              <caret line="148" column="98" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="98" />
               <folding>
-                <element signature="e#3394#4186#0" />
-                <element signature="e#4359#5523#0" />
-                <element signature="e#5578#6070#0" />
+                <element signature="e#1044#2302#0" />
+                <element signature="e#2356#3096#0" />
+                <element signature="e#4436#5600#0" />
+                <element signature="e#5655#6147#0" />
               </folding>
             </state>
           </provider>
@@ -62,9 +75,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>#mescroll</find>
+      <find>clearEmptyId</find>
+      <find>endBySize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,7 +98,11 @@
       <list>
         <option value="$PROJECT_DIR$/photo.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/22.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/lib/mescroll.js" />
+        <option value="$PROJECT_DIR$/callback.php" />
+        <option value="$PROJECT_DIR$/callback0.php" />
         <option value="$PROJECT_DIR$/photo-mescroll.html" />
       </list>
     </option>
@@ -91,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,25 +125,26 @@
               <item name="scroll-ajax" type="b2602c69:ProjectViewProjectNode" />
               <item name="scroll-ajax" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="scroll-ajax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scroll-ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Less" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wwwroot\scroll-ajax" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +168,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559092046750</updated>
-      <workItem from="1559092049099" duration="1338000" />
+      <workItem from="1559092049099" duration="2048000" />
+      <workItem from="1559095833251" duration="10078000" />
     </task>
     <task id="LOCAL-00001" summary="scroll ajax">
       <created>1559092446469</created>
@@ -149,25 +178,26 @@
       <option name="project" value="LOCAL" />
       <updated>1559092446469</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="scroll ajax">
+      <created>1559093498042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093498042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1338000" />
+    <option name="totallyTimeSpent" value="12126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="运行" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="调试" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -175,6 +205,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="运行" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -188,14 +224,48 @@
     <option name="LAST_COMMIT_MESSAGE" value="scroll ajax" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="154" column="10" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="154" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        <state relative-caret-position="389">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
           <folding>
-            <element signature="e#1171#1654#0" />
-            <element signature="e#1664#2147#0" />
+            <element signature="e#11633#12317#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ren.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -209,51 +279,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="746" column="18" lean-forward="true" selection-start-line="746" selection-start-column="18" selection-end-line="746" selection-end-column="18" />
+        <state relative-caret-position="227">
+          <caret line="148" column="98" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="98" />
           <folding>
-            <element signature="e#11682#12366#0" />
+            <element signature="e#1044#2302#0" />
+            <element signature="e#2356#3096#0" />
+            <element signature="e#4436#5600#0" />
+            <element signature="e#5655#6147#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="60" column="4" selection-start-line="7" selection-start-column="13" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo-mescroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="e#1162#1858#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/mescroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18345">
+        <state relative-caret-position="194">
+          <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#9494#17111#0" />
+            <element signature="e#9677#10412#0" />
+            <element signature="e#10629#15006#0" />
+            <element signature="e#10953#14308#0" />
+            <element signature="e#14329#14956#0" />
+            <element signature="e#18254#18720#0" />
+            <element signature="e#18985#21678#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="154" column="10" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="154" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
-          <folding>
-            <element signature="e#3394#4186#0" />
-            <element signature="e#4359#5523#0" />
-            <element signature="e#5578#6070#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo-mescroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -14,13 +14,13 @@
 </head>
 <body>
 <div class="web-container">
-	<div id="mescroll" class="mescroll">
-		<div class="header">
-			<a href="javascript:history.back()" class="back"><img src="img/public/back.png" alt=""></a>
-			<h1 class="logo">黑光装修实景平台</h1></div>
-
-		<div class="main">
-			<div class="album-list"></div>
+	<div class="header">
+		<a href="javascript:history.back()" class="back"><img src="img/public/back.png" alt=""></a>
+		<h1 class="logo">黑光装修实景平台</h1></div>
+	<div class="main">
+		<!--相册列表-->
+		<div class="section">
+			<div id="dataList" class="album-list"></div>
 		</div>
 	</div>
 </div>
@@ -28,25 +28,48 @@
 <script src="js/lib/mescroll.js"></script>
 <script src="js/main.js"></script>
 <script>
-	var page = 2;
+	var page = 0; //mescroll会自动配置page.num
 	var pageUrl = 'callback.php?page=';
-	var isLoading = false;	// 正在加载中
-	var isHaveNot = false; // 是否已经加载完毕
-	// 滚动代码
-	var mescroll = new MeScroll("mescroll", { //div的id
-		//解析: down.callback默认调用mescroll.resetUpScroll(),而resetUpScroll会将page.num=1,再触发up.callback
+	var isLoading = false;	//正在加载中
+	var isHaveNot = false; //是否已经加载完毕
+	//滚动代码
+	var mescroll = new MeScroll("body", {
 		up: {
-			callback: upCallback, //上拉加载的回调
+			callback: upCallback,
+			page: {
+				num: 0,
+				size: 4
+			},
+			empty: {
+				warpId:	"dataList",
+				icon: "img/public/mescroll-empty.png",
+				tip: "暂无相关数据~",
+				btntext: "返回首页 >",
+				btnClick: function () {
+					alert("点击了按钮,具体逻辑自行实现");
+				}
+			},
+			loadFull: {
+				use: true,
+				delay: 500
+			},
+			toTop: {
+				src: "img/public/mescroll-totop.png",
+				//html: null,
+				//offset : 1000
+			},
+			lazyLoad: {
+				use: true
+			}
 		},
 		down: {
-			use: false, //不初始化下拉刷新的布局
+			use: false,
 		}
 	});
-	function upCallback() {
-		if (isLoading) return false;
-		if (isHaveNot) return false;
+	function upCallback(e) {
+		console.log(e);
 		jQuery('.album-list').ajaxInfo({
-			url: pageUrl + page,
+			url: pageUrl + e.num,
 			cb: mescroll,
 			sucess: function (data, cb) {
 				jQuery('.album-list').albumCallBack(data, cb);
